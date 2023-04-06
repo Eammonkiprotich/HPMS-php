@@ -8,6 +8,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email= $_POST['email'];
     $password= $_POST['password'];
     $age = $_POST['age'];
+    
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     
